@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:title="SETTINGS"
+        android:icon="@drawable/settings_icon"/>
+
+    <item
+        android:id="@+id/history"
+        android:title="HISTORY"
+        android:icon="@drawable/ic_history"/>
+    <item
+        android:id="@+id/logout"
+        android:title="LOGOUT"
+        android:icon="@drawable/ic_logout"/>
+
+</menu>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_admin_news_upload.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ADMIN.NewsUpload"
+    tools:ignore="HardCodedText"
+    android:background="@color/c1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="LETS UPLOAD NEWS"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Title EditText -->
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="News Title"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="20dp" />
+
+    <!-- Content EditText -->
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleEditText"
+        android:layout_marginTop="20dp"
+        android:hint="News Content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="textMultiLine"
+        android:padding="20dp" />
+
+
+
+    <!-- Start Date EditText -->
+    <EditText
+        android:id="@+id/startDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contentEditText"
+        android:layout_marginTop="20dp"
+        android:hint="Start Date (MM/dd/yyyy)"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="20dp" />
+
+    <!-- End Date EditText -->
+    <EditText
+        android:id="@+id/endDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startDateEditText"
+        android:layout_marginTop="20dp"
+        android:hint="End Date (MM/dd/yyyy)"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="20dp" />
+
+    <!-- Start Time EditText -->
+    <EditText
+        android:id="@+id/startTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/endDateEditText"
+        android:layout_marginTop="20dp"
+        android:hint="Start Time (e.g., 10:00 AM)"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="20dp" />
+
+    <!-- End Time EditText -->
+    <EditText
+        android:id="@+id/endTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startTimeEditText"
+        android:layout_marginTop="20dp"
+        android:hint="End Time (e.g., 12:00 PM)"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="20dp" />
+
+    <!-- Upload Button -->
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/endTimeEditText"
+        android:layout_marginTop="16dp"
+        android:text="Upload News"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ED0000"
+        android:background="@drawable/btn_rounded_corner" />
+
+
+</RelativeLayout>

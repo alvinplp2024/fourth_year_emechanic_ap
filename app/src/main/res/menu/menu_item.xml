@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/tips"
+        android:title="Tips"
+        android:icon="@drawable/ic_tips"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/history"
+        android:title="History"
+        android:icon="@drawable/ic_history"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/news"
+        android:title="News"
+        android:icon="@drawable/call_support"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"
+        android:iconTint="@color/white"/>
+
+</menu>

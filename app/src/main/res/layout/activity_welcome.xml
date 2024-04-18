@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wel"
+    tools:context=".WelcomeActivity"
+    tools:ignore="HardCodedText"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="50dp"
+        android:layout_centerInParent="true"
+        app:cardMaxElevation="12dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:cardPreventCornerOverlap="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+    <Button
+        android:id="@+id/admin_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/welcome_driver_btn"
+        android:backgroundTint="#8BC34A"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_rounded_corner"
+        android:text="ADMIN" />
+    <Button
+        android:id="@+id/welcome_driver_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8BC34A"
+        android:textStyle="bold|italic"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_rounded_corner"
+        android:text="Mechanic"
+        android:gravity="center" />
+
+        <Button
+            android:id="@+id/welcome_customer_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_driver_btn"
+            android:backgroundTint="#8BC34A"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_rounded_corner"
+            android:text="Driver" />
+
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

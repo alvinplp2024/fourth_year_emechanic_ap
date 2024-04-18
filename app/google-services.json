@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "288763350702",
+    "firebase_url": "https://fixeridetest-default-rtdb.firebaseio.com",
+    "project_id": "fixeridetest",
+    "storage_bucket": "fixeridetest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288763350702:android:298a2fe2badd9cec71673f",
+        "android_client_info": {
+          "package_name": "com.example.fixeridetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288763350702-5hiknvtgvrctefcnjdc9h85crv9qtn1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fixeridetest",
+            "certificate_hash": "31af6c8c6a8c8ada43ac6bb93c3dbccc5692afbc"
+          }
+        },
+        {
+          "client_id": "288763350702-o8hi8kg4g6e4pfkuit3eddkpkcl4qpd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUC94p4BIF8fC7mZseQ0S5t85rmJ9C0DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288763350702-o8hi8kg4g6e4pfkuit3eddkpkcl4qpd0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

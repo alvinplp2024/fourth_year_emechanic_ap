@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardCodedText">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:background="@color/sky_blue"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:padding="7dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/reportTitle"
+            android:text="REPORT"
+            android:textSize="25sp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_gravity="end"
+            android:layout_marginEnd="8dp"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/reportTableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- Table rows will be dynamically added here -->
+            </TableLayout>
+
+        </ScrollView>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/downloadButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/downloadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:layout_gravity="end"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="italic|bold"
+            android:background="@drawable/btn_rounded_corner"
+            android:backgroundTint="#8BC34A"
+            android:layout_marginEnd="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

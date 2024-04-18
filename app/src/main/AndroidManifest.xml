@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fixeridetest">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".NOTIFICATION.FIXERIDENOTIFICATION"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ADMIN.ManageNews"
+            android:exported="false" />
+        <activity
+            android:name=".MPESA.PaymentMechanic"
+            android:exported="false" />
+        <activity
+            android:name=".REPORT.Report"
+            android:exported="false" />
+        <activity
+            android:name=".PHONELOGIN.LoginPhoneNumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PHONELOGIN.LoginOtpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashIntroduction"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.MechanicsRegistered"
+            android:exported="false" />
+        <activity
+            android:name=".NEWS.DriverNews"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.NewsUpload"
+            android:exported="false" />
+        <activity
+            android:name=".FORGOT_PASSWORD.MechanicPasswordReset"
+            android:exported="false"
+            android:theme="@style/AppThemeReset" />
+        <activity
+            android:name=".FORGOT_PASSWORD.DriverPasswordReset"
+            android:exported="false"
+            android:theme="@style/AppThemeReset" />
+        <activity
+            android:name=".ADMIN.MechanicRegister"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Main2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatMechanicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reminderTyre"
+            android:exported="false" />
+        <activity
+            android:name=".TipsAccident"
+            android:exported="false" />
+        <activity
+            android:name=".InvoiceMechanic1"
+            android:exported="false" />
+        <activity
+            android:name=".InvoiceDriver"
+            android:exported="false" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".MapsActivity4"
+            android:label="@string/title_activity_maps4" />
+        <activity
+            android:name=".MapsActivity3"
+            android:label="@string/title_activity_maps3" />
+        <activity
+            android:name=".MapsActivity2"
+            android:label="@string/title_activity_maps2" />
+        <activity
+            android:name=".Retrieve"
+            android:exported="false" />
+        <activity
+            android:name=".AvailableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MechanicMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".onAppKilled"
+            android:stopWithTask="false" />
+
+        <activity
+            android:name=".HistorySingleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MechanicSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DriverSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DriverMapActivity"
+            android:label="@string/title_activity_customer_maps" />
+        <activity
+            android:name=".MechanicMapActivity"
+            android:label="@string/title_activity_drivers_map" />
+        <activity
+            android:name=".DriverLoginRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MechanicLoginRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pop"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false" />
+
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.fixeridetest.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths">
+            </meta-data>
+        </provider>
+
+
+
+
+
+
+    </application>
+
+</manifest>

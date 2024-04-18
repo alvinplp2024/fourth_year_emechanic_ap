@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginreg"
+    tools:ignore="HardCodedText"
+    tools:context=".DriverLoginRegisterActivity">
+
+
+
+    <Button
+        android:id="@+id/phone_login"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="153dp"
+        android:backgroundTint="#8BC34A"
+        android:text="LOGIN WITH PHONE..?"
+        android:background="@drawable/btn_rounded_corner"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/customer_register_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="63dp"
+        android:text="Don't have an Account?"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#A3073C" />
+
+    <TextView
+        android:id="@+id/customer_password_reset1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="113dp"
+        android:text="Forgot Password? Click Here"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#A3073C" />
+
+    <TextView
+        android:id="@+id/customer_status"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="0dp"
+        android:text="DRIVER LOGIN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/email_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="335dp"
+        android:ems="15"
+        android:hint="Email..."
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="280dp"
+        android:ems="15"
+        android:hint="Password..."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/name_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="212dp"
+        android:ems="15"
+        android:hint="Name..."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/phone_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:ems="15"
+        android:hint="Phone..."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/car_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:ems="15"
+        android:hint="Car model..."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/customer_login_btn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:ems="15"
+        android:layout_marginBottom="211dp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:background="@drawable/btn_rounded_corner"
+        android:text="Login"
+        android:textSize="16sp"
+        android:backgroundTint="#8BC34A" />
+
+
+
+    <Button
+        android:id="@+id/customer_register_btn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Register"
+        android:background="@drawable/btn_rounded_corner"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:textSize="16sp" />
+
+</RelativeLayout>

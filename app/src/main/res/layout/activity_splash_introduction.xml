@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/inchu_nyomba"
+    android:layout_height="match_parent"
+    tools:ignore="HardCodedText"
+    tools:context=".SplashIntroduction">
+
+    <TextView
+        android:id="@+id/textviewsplashint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="E-MECHANIC"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/textviewsplashint1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/textviewsplashint"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:text="GET STARTED"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/btn_rounded_corner"
+        android:backgroundTint="#F10000"/>
+
+</RelativeLayout>

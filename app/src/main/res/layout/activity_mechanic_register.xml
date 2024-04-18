@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginreg"
+    tools:ignore="HardCodedText"
+    tools:context=".MechanicLoginRegisterActivity">
+
+
+
+    <TextView
+        android:id="@+id/driver_status"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="0dp"
+        android:text="Mechanic Register"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/driver_statuss"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="390dp"
+        android:ems="10"
+        android:text="Active"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email_driver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="335dp"
+        android:ems="10"
+        android:hint="Email..."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_driver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="280dp"
+        android:ems="10"
+        android:hint="Password..."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/driver_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="225dp"
+        android:ems="10"
+        android:hint="Car..."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/driver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="169dp"
+        android:ems="10"
+        android:hint="Name..."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/driver_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:ems="10"
+        android:hint="Phone..."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/driver_register_btn"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Register"
+        android:background="@drawable/btn_rounded_corner"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+</RelativeLayout>
